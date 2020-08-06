@@ -31,6 +31,23 @@ Sometimes, when stimulation was performed during the task, a separate matfile wi
 Running the script will give out a prompt asking for the   
 **>> Session File Name to be analyzed**   
 along with all the filenames in the current directory displayed. You need to type in the exact name of the txt file to be analyzed.
+Running the script will generate 8 figures.
+
+### Tone stimulation (LaserTimeRelativeToneOnset>0)
+The relevant figures to look at are Fig. 1, 2, 4 and 6.  
+**Fig1:** Control first/subsequent lick latency (Histogram). Also displayed is the incorrect & miss percentage.  
+**Fig2:** Stim first/sunsequent lick latency (Histogram). Also displayed is the incorrect & miss percentage. Analysis is repeated for each depth (rows).       
+**Fig4:** Same plot as Fig. 2 but in lick raster rather than histogram.  
+**Fig6:** Each dot represent a lick, and all trial type are sorted into Left vs Right, and by outcome, indicated by the color of the right most column.
+
+### ITI stimulation (LaserTimeRelativeToneOnset<0)
+The relevant figures to look at are Fig. 1, 2, 4 and 6.  
+**Fig3:** Control first/subsequent lick latency (Histogram). Also displayed is the incorrect & miss percentage.  
+**Fig5:** Stim first/sunsequent lick latency (Histogram). Also displayed is the incorrect & miss percentage. Analysis is repeated for each depth (rows).       
+**Fig7:** Same plot as Fig. 2 but in lick raster rather than histogram.  
+**Fig8:** Each dot represent a lick, and all trial type are sorted into Left vs Right, and by outcome, indicated by the color of the right most column.
+
+
 
 
 
