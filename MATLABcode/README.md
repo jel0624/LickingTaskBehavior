@@ -1,0 +1,3 @@
+This is a MATLAB script that will create a GUI allowing control over a tapered fiber launch system (*Lee et al, 2020*). 
+The GUI is designed to trigger laser pulses when receiving a digital ON signal, coming from e.g. Arduino (see LickingTaskBehavior/AdruinoCodes).
+
