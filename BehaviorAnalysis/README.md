@@ -1,4 +1,5 @@
 # Analysis of Behavior
+### Structure of txt file from Arduino
 Arduino files ouput txt files that can be easily analyzed using various programming softwares.  
 The txt file is organized as follows:
 
@@ -21,5 +22,8 @@ The txt file is organized as follows:
   
 Usually, most of the analysis can be performed by just reading **Eventname** and **EventTimeStamp**.
 
+Sometimes, when stimulation was performed during the task, a separate matfile with variable named **'Log'** will be needed to analyze the data using the script provided. **'Log'** file is an array containing information about the depth that was stimulated (tapered fiber stimulation). If only one site was used, then this should be a trivial containing a single number, and length equal to the number of stimulation. A good sanity check that I performed is to compared the size of the **Log** file with the total number of stim trials shown in the Arduino txt files. If those two number disagree, the discrepancy must be resolved before carrying out further analysis. 
 
+### MATLAB script for analysis
+**SingleSessionStats_1** is a costum written script to analyze the effect of stimulation.
 
