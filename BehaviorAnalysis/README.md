@@ -24,6 +24,13 @@ Usually, most of the analysis can be performed by just reading **Eventname** and
 
 Sometimes, when stimulation was performed during the task, a separate matfile with variable named **'Log'** will be needed to analyze the data using the script provided. **'Log'** file is an array containing information about the depth that was stimulated (tapered fiber stimulation). If only one site was used, then this should be a trivial containing a single number, and length equal to the number of stimulation. A good sanity check that I performed is to compared the size of the **Log** file with the total number of stim trials shown in the Arduino txt files. If those two number disagree, the discrepancy must be resolved before carrying out further analysis. 
 
+
 ### MATLAB script for analysis
-**SingleSessionStats_1** is a costum written script to analyze the effect of stimulation.
+**SingleSessionStats_1** is a custom written script to analyze the effect of stimulation. It can be used to analyze both stimulation during Tone and stimulation during ITI. Before you run the code, you have to change the parameter **LaserTimeRelativeToneOnset** according to the stimulation protocol you have used. This is the time of the laser relative to Tone onset, and will be 25ms for Tone stimulation trials, and -500 for ITI stimulation.  
+
+Running the script will give out a prompt asking for the   
+**>> Session File Name to be analyzed**   
+along with all the filenames in the current directory displayed. You need to type in the exact name of the txt file to be analyzed.
+
+
 
