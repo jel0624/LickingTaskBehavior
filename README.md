@@ -20,7 +20,8 @@ The code also allows to send digital On/Off signals to trigger Auxilary output (
 In the repository, you can find:  
 - [ArduinoCodes](https://github.com/jel0624/LickingTaskBehavior/tree/master/ArduinoCodes) folder, where you will find Arduino files for implementing the task.  
 - [MATLABcode](https://github.com/jel0624/LickingTaskBehavior/tree/master/MATLABcode) folder, where you will find the MATLAB GUI script for the tapered fiber lauching system.  
-- [BehaviorAnalysis](https://github.com/jel0624/LickingTaskBehavior/tree/master/BehaviorAnalysis) folder, where you will find basic MATLAB analysis codes for looking at the efffect of stimulation.  
+- [BehaviorAnalysis](https://github.com/jel0624/LickingTaskBehavior/tree/master/BehaviorAnalysis) folder, where you will find basic MATLAB analysis codes for looking at the effect of stimulation during the lateralized licking task.  
+- [RecordingAnalysis](https://github.com/jel0624/LickingTaskBehavior/tree/master/RecordingAnalysis) folder, where you will find basic MATLAB scripts for analyzing in vivo recording data during the task.  
 
 
 
