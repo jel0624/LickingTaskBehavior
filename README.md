@@ -24,7 +24,8 @@ Adjutable parameters (via Arduino):
 - Tone Frequency
 - Incorrect trial repeat (yes or no)
 
-The code also allows to send digital On/Off signals to trigger Auxilary output (e.g. Laser Stimulation/Camera Trigger)
+The code also allows to send digital On/Off signals to trigger Auxilary output (e.g. Laser Stimulation/Camera Trigger).  
+The code can be flexibly modified to implement different variants of the headfixed licking task (e.g. Two-armed-bandit). We provide two other versions of the task that might be of interest (see [ArduinoCodes](https://github.com/jel0624/LickingTaskBehavior/tree/master/ArduinoCodes) folder, where you will find Arduino files for implementing the task).  
 
 
 
