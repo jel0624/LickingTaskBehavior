@@ -21,8 +21,7 @@ In the repository, you can find:
 - [ArduinoCodes](https://github.com/jel0624/LickingTaskBehavior/tree/master/ArduinoCodes) folder, where you will find Arduino files for implementing the task.  
 - [MATLABcode](https://github.com/jel0624/LickingTaskBehavior/tree/master/MATLABcode) folder, where you will find the MATLAB GUI script for the tapered fiber lauching system.  
 - [BehaviorAnalysis](https://github.com/jel0624/LickingTaskBehavior/tree/master/BehaviorAnalysis) folder, where you will find basic MATLAB analysis codes for looking at the effect of stimulation during the lateralized licking task.  
-- [RecordingAnalysis](https://github.com/jel0624/LickingTaskBehavior/tree/master/RecordingAnalysis) folder, where you will find basic MATLAB scripts for analyzing in vivo recording data during the task.  
-
-
+- [RecordingAnalysis](https://github.com/jel0624/LickingTaskBehavior/tree/master/RecordingAnalysis) folder, where you will find basic MATLAB scripts for analyzing in vivo recording data during the task.    
+- [BuildTheRig](https://github.com/jel0624/LickingTaskBehavior/tree/master/BuildTheRig) folder, where you will a parts-list and instructions on how to build a similar rig for the licking task.
 
 
